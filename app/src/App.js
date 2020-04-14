@@ -30,13 +30,15 @@ export default class App extends React.Component {
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
+
     });
   }
 
   render() {
     return <Fragment>
-      <Navbar className = "darkBlueHeader" variant = "light" expand="md">
-        <NavbarBrand className="lightBlueHeaderUnselected">Casey Kesterson</NavbarBrand>
+      <Navbar className = "Navbar" variant = "light" expand="md">
+        <NavbarBrand className="navbar-brand">Casey Kesterson</NavbarBrand>
+        <NavbarToggler onClick={this.toggle} />
       </Navbar>
     </Fragment>
   }

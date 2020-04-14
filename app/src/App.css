@@ -2,16 +2,16 @@
   text-align: center;
 }
 
-.Navbar .navbar-brand {
-  color: #3c9fe7;
-}
-
 /* darkBlueHeader theme */
-.darkBlueHeader { 
-  background-color : #170da3
+.Navbar { 
+  background-color : #2014ca
 }
 
 /* lightBlueHeaderUnselected theme */
-.darkBlueHeader .lightBlueHeaderUnselected { 
+.Navbar .navbar-brand { 
   color :#3c9fe7; 
 } 
+
+.Navbar .navbar-clicked {
+  color: #0e0c2b
+}
