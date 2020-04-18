@@ -1,22 +1,23 @@
-.App {
-  text-align: center;
-}
+
 
 /* darkBlueHeader theme */
 .Navbar { 
-  background-color : #2014ca
+  background-color : #2014ca;
 }
 
 /* lightBlueHeaderUnselected theme */
 .Navbar .navbar-brand { 
   color :#72c0f7; 
   text-align: right;
+  font: normal 100 2.3em 'Brush Script MT', cursive; overflow-x: hidden;
 } 
 
 /* lightBlueHeaderUnselected theme */
 .Navbar .navbar-options { 
-  color :#72c0f7; 
-  text-align: right;
+  color :#72c0f7;
+  padding: 0 5px;
+  float: right;
+  padding-left: 200px;
 } 
 
 .Navbar .navbar-clicked {
