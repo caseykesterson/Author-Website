@@ -9,7 +9,14 @@
 
 /* lightBlueHeaderUnselected theme */
 .Navbar .navbar-brand { 
-  color :#3c9fe7; 
+  color :#72c0f7; 
+  text-align: right;
+} 
+
+/* lightBlueHeaderUnselected theme */
+.Navbar .navbar-options { 
+  color :#72c0f7; 
+  text-align: right;
 } 
 
 .Navbar .navbar-clicked {
