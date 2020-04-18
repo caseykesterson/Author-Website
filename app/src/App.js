@@ -16,6 +16,7 @@ import {
   DropdownMenu,
   DropdownItem
 } from 'reactstrap';
+import {Helmet} from 'react-helmet';
 
 export default class App extends React.Component {
 
@@ -56,8 +57,11 @@ export default class App extends React.Component {
             </Nav>
         </Collapse>
       </Navbar>
-      <div className="content"
-    />
+        <div className="content">
+            <Helmet>
+                <style>{'body { background-color: #ac9b78; }'}</style>
+            </Helmet>
+        </div>
     </Fragment>
   }
 }
