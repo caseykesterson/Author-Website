@@ -59,7 +59,7 @@ export default class App extends React.Component {
       </Navbar>
         <div className="content">
             <Helmet>
-                <style>{'body { background-color: #ac9b78; }'}</style>
+                <style>{'body { background-color: #b9b09c; }'}</style>
             </Helmet>
         </div>
     </Fragment>
