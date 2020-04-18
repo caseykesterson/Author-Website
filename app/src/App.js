@@ -17,6 +17,7 @@ import {
   DropdownItem
 } from 'reactstrap';
 import {Helmet} from 'react-helmet';
+import Headshot from './headshot.png'
 
 export default class App extends React.Component {
 
@@ -60,6 +61,9 @@ export default class App extends React.Component {
         <div className="content">
             <Helmet>
                 <style>{'body { background-color: #b9b09c; }'}</style>
+                <div id="bio-picture">
+                  <img src={Headshot} alt="Casey Kesterson"></img>
+                </div>
             </Helmet>
         </div>
     </Fragment>
