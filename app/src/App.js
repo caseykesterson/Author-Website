@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+//import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Fragment } from 'react';
@@ -11,13 +11,9 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
 } from 'reactstrap';
 import {Helmet} from 'react-helmet';
-import Headshot from './headshot.png'
+import Headshot from './headshot.png';
 
 export default class App extends React.Component {
 
